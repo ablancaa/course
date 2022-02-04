@@ -33,23 +33,23 @@
         </div>
                 <div class="col-12 col-md-3 col-sm-4">
                     <div class="card separadorCards">
-     <img src="../assets/images/TAC.jpg" class="card-img-top" alt="...">
+     <router-link to="/Ponentes" class="link"><img src="../assets/images/TAC.jpg" class="card-img-top" alt="...">
    <div class="card-body">
      <h5 class="card-title">Participantes</h5>
      <p class="card-text">Infomración acerca de ellos</p>
-     <router-link to="/Ponentes" class="btn btn-primary">Ver +</router-link>
-   </div>
+     <!-- <router-link to="/Ponentes" class="btn btn-primary">Ver +</router-link> -->
+   </div></router-link>
  </div>
         </div>
                         <div class="col-12 col-md-3">
-                    <div class="card separadorCards">
-     <img src="../assets/images/Covid.jpg" class="card-img-top" alt="...">
-   <div class="card-body">
-     <h5 class="card-title">Documentación</h5>
-     <p class="card-text">Documentación del curso</p>
-     <router-link to="/Ponentes" class="btn btn-primary">Ver +</router-link>
-   </div>
- </div>
+                    <!-- <div class="card separadorCards"> -->
+     <!-- <img src="../assets/images/Covid.jpg" class="card-img-top" alt="..."> -->
+   <!-- <div class="card-body"> -->
+     <!-- <h5 class="card-title">Documentación</h5> -->
+     <!-- <p class="card-text">Documentación del curso</p> -->
+     <!-- <router-link to="/Ponentes" class="btn btn-primary">Ver +</router-link> -->
+   <!-- </div> -->
+ <!-- </div> -->
         </div>
       </div>
      <div class="esponsor"></div>
@@ -76,6 +76,11 @@ export default {
 .separadorCards{
   margin-top: 10px;
   border-color: grey;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
 }
 
 .card{
