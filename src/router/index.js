@@ -7,6 +7,7 @@ import Ponencias from '../views/Ponencias.vue'
 import Horarios from '../views/Horarios.vue'
 import Contacto from '../views/Contacto.vue'
 import Inscripciones from '../views/Inscripciones.vue'
+import Galeria from '../views/Galeria.vue'
 
 const routes = [
   {
@@ -48,6 +49,11 @@ const routes = [
     path: '/Inscripciones',
     name: 'Inscripciones',
     component: Inscripciones
+  },
+  {
+    path: '/Galeria',
+    name: 'Galeria',
+    component: Galeria
   },
   {
     path: '/about',
