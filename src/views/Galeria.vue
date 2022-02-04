@@ -56,8 +56,8 @@ export default { name: 'Galeria' }
     padding: 3px;
 }
 
-.carrusel, img {
-    height: 450px;
+.carrusel {
+    height: 50%;
 }
 
 @media (min-width: 576px) {
