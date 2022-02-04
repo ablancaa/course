@@ -79,7 +79,7 @@ export default {
 }
 
 .card{
-  border-color: blue;
+  border-color: grey;
 }
 .esponsor{
   margin-top:50px;
