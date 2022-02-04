@@ -1,8 +1,8 @@
 <template>
     <main class="container d-flex aling-items-center justify-content-center">
         <div class="row">
-            <!-- Columna izquierda -->
-            <h1 class="titulo">Participantes</h1>
+        <!-- Columna izquierda -->
+        <h1 class="titulo">Participantes</h1>
             <div class="col-12 col-lg-12">
                 <div class="row">
                     <div class="col-12 col-sm-6">
