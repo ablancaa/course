@@ -75,7 +75,7 @@ export default {
 }
 .separadorCards{
   margin-top: 10px;
-  border-color: blue;
+  border-color: grey;
 }
 
 .card{
