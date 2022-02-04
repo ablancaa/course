@@ -3,6 +3,38 @@
         <div class="row">
         <!-- Columna izquierda -->
         <h1 class="titulo">Participantes</h1>
+        <div class="row">
+            <div class="col-12 col-lg-6 col-md-6">
+                <article class="card">
+                    <div class="card-body">
+                        <div class="d-flex">
+                            <img src="../assets/images/Dr.Barret.png" alt="" class="border-4 border-secondary rounded-circle" width="90">
+                            <div class="ps-3">
+                                <h6 class="m-0 mt-2">Dr. Joan Pere Barret.</h6>
+                                <p class="m-0">Hospital Vall d’Hebron. Barcelona</p>
+                            </div>
+                        </div>
+                        <p class="h6 p-2">Jueves 28 de Abril 2022<br/><br/>- Moderador: Introducción<br/> - 11:30 - 11:50 Tratamiento quirúrgico de las quemaduras.</p>
+                        <p class="p-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                    </div>
+                </article>
+            </div> <!-- Fin col-12 col-lg-6 col-md-6 -->
+            <div class="col-12 col-lg-6 col-md-4">
+               <article class="card">
+                    <div class="card-body">
+                        <div class="d-flex">
+                            <img src="../assets/images/Dr.Serracanta.png" alt="" class="border-4 border-secondary rounded-circle" width="90">
+                            <div class="ps-3">
+                                <h6 class="m-0 mt-2">Dr. Jordi Serracanta.</h6>
+                                <p class="m-0">Hospital Vall d’Hebron. Barcelona</p>
+                            </div>
+                        </div>
+                        <p class="h6 p-2" >Jueves 28 de Abril 2022<br/><br/>- Moderador: Otros tratamientos y enfoque multidisciplinar<br/> - 09:30 - 09:45 Quemaduras: definición y etiologia.</p>
+                        <p class="p-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet consectetur adipisicing</p>
+                    </div>
+                </article>
+            </div> <!-- Fin col-12 col-lg-6 col-md-6 -->
+        </div> <!-- Fin de row -->
             <div class="col-12 col-lg-12">
                 <div class="row">
                     <div class="col-12 col-sm-6">
