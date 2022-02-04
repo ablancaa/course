@@ -18,6 +18,9 @@
         <li class="nav-item">
           <router-link to="Horarios" class="nav-link active"><img src="../assets/icons/calendar-event.svg"/> - Horarios</router-link>
         </li>
+        <li class="nav-item">
+          <router-link to="Galeria" class="nav-link active"><img src="../assets/icons/image.svg"/> - Galería</router-link>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle nav-link active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <img src="../assets/icons/card-text.svg"/> - Programa
