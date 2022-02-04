@@ -5,8 +5,8 @@
           <div class="card separadorCards">
             <img src="../assets/images/Cirugia2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Ponencias</h5>
-                <p class="card-text">Descripción de las ponencias</p>
+                <h5 class="card-title">Presentación</h5>
+                <p class="card-text">Más información</p>
                 <!-- <a href="#" class="btn btn-primary">Ver +</a> -->
               </div>
           </div>
@@ -15,8 +15,8 @@
           <div class="card separadorCards">
             <img src="../assets/images/Cirugia.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Talleres</h5>
-                <p class="card-text">Actividades con el paciente</p>
+                <h5 class="card-title">Inscripción</h5>
+                <p class="card-text">Más información</p>
                 <!-- <a href="#" class="btn btn-primary">Ver +</a> -->
               </div>
           </div>
@@ -26,7 +26,7 @@
             <img src="../assets/images/Nino.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Horarios</h5>
-                <p class="card-text">Horarios del curso</p>
+                <p class="card-text">Programa científico</p>
                 <!-- <a href="#" class="btn btn-primary">Ver +</a> -->
               </div>
           </div>
@@ -36,7 +36,7 @@
             <router-link to="/Ponentes" class="link"><img src="../assets/images/TAC.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Participantes</h5>
-                <p class="card-text">Infomración acerca de ellos</p>
+                <p class="card-text">Más información</p>
                 <!-- <router-link to="/Ponentes" class="btn btn-primary">Ver +</router-link> -->
               </div></router-link>
           </div>
