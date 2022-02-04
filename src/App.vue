@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header msg="Curso alternativo de quemados 2022"/>
+    <Header msg=""></Header>
     <NavBar/>
       <div class="container">
       <router-view/>
@@ -20,6 +20,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -27,7 +28,9 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-
+.color{
+  color:chocolate;
+}
 #nav {
   padding: 30px;
 

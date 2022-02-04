@@ -1,5 +1,5 @@
 <template>
-        <img src="../assets/images/Salut-Campus-tots-RGB.png">
+        <img src="../assets/images/pie.png">
 </template>
 
 <script>

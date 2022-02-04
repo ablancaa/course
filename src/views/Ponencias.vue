@@ -10,9 +10,9 @@ export default { name: 'Ponencias' }
 
 <style lang="scss" scoped>
 .titulo{
-    background-color: blue;
+    background-color:#3D6DA3;
     color: white;
     border-radius: 10px;
-    padding: 10px;
+    padding: 3px;
 }
 </style>

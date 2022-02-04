@@ -3,49 +3,58 @@
       <div class="row">
         <div class="col-12 col-md-3 col-sm-4">
           <div class="card separadorCards">
-            <img src="../assets/images/Cirugia2.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Presentación</h5>
-                <p class="card-text">Más información</p>
-                <!-- <a href="#" class="btn btn-primary">Ver +</a> -->
-              </div>
-          </div>
-        </div> <!-- fin de col-12 col-md-3 col-sm-4 -->
+     <router-link to="/Presentacion" class="link"><img src="../assets/images/Cirugia2.jpg" class="card-img-top" alt="Presentación" title="Presentación">
+   <div class="card-body">
+     <h5 class="card-title"><!-- <img src="../assets/icons/chat-right.svg"/>-->Presentación</h5>
+     <p class="card-text">Más información</p>
+     <!-- <router-link to="/Presentacion" class="btn btn-primary">Ver +</router-link> -->
+   </div></router-link>
+ </div>
+ </div>
         <div class="col-12 col-md-3 col-sm-4">
-          <div class="card separadorCards">
-            <img src="../assets/images/Cirugia.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Inscripción</h5>
-                <p class="card-text">Más información</p>
-                <!-- <a href="#" class="btn btn-primary">Ver +</a> -->
-              </div>
-          </div>
-        </div> <!-- fin de col-12 col-md-3 col-sm-4 -->
-        <div class="col-12 col-md-3 col-sm-4">
-          <div class="card separadorCards">
-            <img src="../assets/images/Nino.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Horarios</h5>
-                <p class="card-text">Programa científico</p>
-                <!-- <a href="#" class="btn btn-primary">Ver +</a> -->
-              </div>
-          </div>
-        </div> <!-- fin de col-12 col-md-3 col-sm-4 -->
-        <div class="col-12 col-md-3 col-sm-4">
-          <div class="card separadorCards">
-            <router-link to="/Ponentes" class="link"><img src="../assets/images/TAC.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Participantes</h5>
-                <p class="card-text">Más información</p>
-                <!-- <router-link to="/Ponentes" class="btn btn-primary">Ver +</router-link> -->
-              </div></router-link>
-          </div>
-        </div> <!-- fin de col-12 col-md-3 col-sm-4 -->
-        <div class="col-12 col-md-3">
+                    <div class="card separadorCards">
+     <router-link to="/Inscripciones" class="link"><img src="../assets/images/Cirugia.jpg" class="card-img-top" alt="Inscripciones" title="Inscripciones">
+   <div class="card-body">
+     <h5 class="card-title"><!-- <img src="../assets/icons/mortarboard.svg"/> -->Inscripciones</h5>
+     <p class="card-text">Más información</p>
+     <!-- <router-link to="Inscripciones" class="btn btn-primary">Ver +</router-link> -->
+   </div></router-link>
+ </div>
         </div>
-      </div>  <!-- fin de row -->
-     <div class="esponsor"></div>
-  </div> <!-- fin container -->
+                <div class="col-12 col-md-3 col-sm-4">
+                    <div class="card separadorCards">
+    <router-link to="/Horarios" class="link"><img src="../assets/images/Nino.jpg" class="card-img-top" alt="Horarios" title="Horarios">
+   <div class="card-body">
+     <h5 class="card-title"><!-- <img src="../assets/icons/calendar-event.svg"/> -->Horarios</h5>
+     <p class="card-text">Programa científico</p>
+     <!-- <router-link to="/Horarios" class="btn btn-primary">Ver +</router-link> -->
+   </div></router-link>
+ </div>
+        </div>
+                <div class="col-12 col-md-3 col-sm-4">
+                    <div class="card separadorCards">
+    <router-link to="/Ponentes" class="link"><img src="../assets/images/TAC.jpg" class="card-img-top" alt="Participantes" title="Participantes">
+   <div class="card-body">
+     <h5 class="card-title"><!-- <img src="../assets/icons/file-earmark-person.svg"/> -->Participantes</h5>
+     <p class="card-text">Más información</p>
+     <!-- <router-link to="/Ponentes" class="btn btn-primary">Ver +</router-link> -->
+   </div></router-link>
+ </div>
+        </div>
+                        <!-- <div class="col-12 col-md-3"> -->
+                    <!-- <div class="card separadorCards"> -->
+     <!-- <img src="../assets/images/Covid.jpg" class="card-img-top" alt="..."> -->
+   <!-- <div class="card-body"> -->
+     <!-- <h5 class="card-title">Documentación</h5> -->
+     <!-- <p class="card-text">Documentación del curso</p> -->
+     <!-- <router-link to="/Ponentes" class="btn btn-primary btn_color">Ver +</router-link> -->
+   <!-- </div> -->
+ <!-- </div> -->
+        <!-- </div> -->
+      <!-- </div> -->
+     <!-- <div class="esponsor"></div> -->
+     </div>
+  </div>
 </template>
 
 <script>
@@ -65,21 +74,26 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+
 .separadorCards{
   margin-top: 10px;
-  border-color: grey;
+}
+
+.btn_color {
+  color:#3D6DA3;
+}
+
+.card{
+  border-color: rgba(253, 253, 255, 0.808);
+}
+
+.esponsor{
+  margin-top:50px;
 }
 
 .link {
   text-decoration: none;
   color: black;
-}
-
-.card{
-  border-color: grey;
-}
-.esponsor{
-  margin-top:50px;
 }
 
 #nav {
@@ -98,6 +112,14 @@ export default {
 @media (min-width: 576px) {
     .alto-100 {
         height: 100vh;
+    }
+
+    .card-title{
+      font-size: 19px;
+    }
+
+    .prueba{
+      color:black;
     }
 }
 </style>

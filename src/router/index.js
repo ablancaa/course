@@ -5,6 +5,8 @@ import Ponentes from '../views/Ponentes.vue'
 import Presentacion from '../views/Presentacion.vue'
 import Ponencias from '../views/Ponencias.vue'
 import Horarios from '../views/Horarios.vue'
+import Contacto from '../views/Contacto.vue'
+import Inscripciones from '../views/Inscripciones.vue'
 
 const routes = [
   {
@@ -36,6 +38,16 @@ const routes = [
     path: '/Horarios',
     name: 'Horarios',
     component: Horarios
+  },
+  {
+    path: '/Contacto',
+    name: 'Contacto',
+    component: Contacto
+  },
+  {
+    path: '/Inscripciones',
+    name: 'Inscripciones',
+    component: Inscripciones
   },
   {
     path: '/about',

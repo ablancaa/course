@@ -8,7 +8,10 @@
       <div class="col-4"></div>
       <!-- <div class="col-4"><button class="btn btn-secondary">Inicio Sesión</button></div> -->
       </div>
-    <h1>{{ msg }}</h1>
+      <br/>
+    <h1>XVI EDICIÓN<br/><span class="color">CURSO DE QUEMADOS</span>{{ msg }}</h1>
+    <br/>
+    <br/>
   </div>
   </header>
 </template>
@@ -26,13 +29,20 @@ export default {
 <style scoped lang="scss">
 
 header {
-  background-color: #1600dd;
+  //background-color: #1600dd;
   width: 100%;
+  height: 230px;
+  background-image: url("../assets/images/Cabecera_Neutra.svg"), url("../assets/images/Silueta_Barcelona.png"), linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+  background-repeat: repeat, no-repeat, no-repeat;
+  background-position:  right,bottom left, right;
 }
 .logotipoCabecera{
   padding-top: 20px;
 }
 
+.color{
+  color:rgb(255, 167, 104);
+}
 .btn {
     margin-top: 30px;
   }
