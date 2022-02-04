@@ -330,7 +330,7 @@ img {
     .alto-100 {
         height: 100vh;
     }
-    flex-column{
+    .flex-column{
         flex-direction: column;
     }
 }
